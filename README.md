@@ -1,51 +1,31 @@
 # Área de Membros — Valentes na Fé
 
-Mini site estático pronto para publicar no GitHub e conectar na Vercel.
+Arquivos incluídos:
+- `index.html`: página final da área de membros.
+- `README.md`: instruções rápidas.
 
-## Arquivos
+## O que foi ajustado
 
-- `index.html` — página principal da área de membros.
-- `README.md` — instruções de publicação e edição.
+- Removido o modelo de página dentro de celular.
+- Removidas as áreas de suporte e “Bem-vindo ao material”.
+- Mantido o topo “Área de Membros Exclusiva” e o selo “Acesso liberado”.
+- Mantidas as instruções em 3 passos.
+- Álbum e figurinhas ficaram juntos em um único card: “Álbum Valentes na Fé + Figurinhas”.
+- Cada bônus recebeu a capa correta, sem imagens repetidas.
 
-## Como configurar os links de download
+## Como colocar os links dos arquivos
 
-Abra o arquivo `index.html` e procure por este trecho:
+Abra o arquivo `index.html` e procure esta parte:
 
 ```js
 const DOWNLOAD_LINKS = {
-  album: "COLE_AQUI_O_LINK_DO_ALBUM_PDF",
-  figurinhas: "COLE_AQUI_O_LINK_DAS_FIGURINHAS",
+  album: "COLE_AQUI_O_LINK_DO_ALBUM_E_FIGURINHAS",
   memoria: "COLE_AQUI_O_LINK_DO_JOGO_DA_MEMORIA",
   desafio: "COLE_AQUI_O_LINK_DO_DESAFIO_7_DIAS",
-  colorir: "COLE_AQUI_O_LINK_DOS_VERSICULOS_PARA_COLORIR",
-  suporte: "https://wa.me/55SEUNUMEROAQUI"
+  colorir: "COLE_AQUI_O_LINK_DOS_VERSICULOS_PARA_COLORIR"
 };
 ```
 
-Substitua cada texto pelo link real do arquivo no Google Drive, Dropbox ou outra hospedagem.
+Troque cada texto pelo link real do Google Drive, Dropbox ou outra hospedagem.
 
-## Dica para usar Google Drive
-
-1. Suba os PDFs no Google Drive.
-2. Clique com o botão direito no arquivo.
-3. Escolha **Compartilhar**.
-4. Altere para **Qualquer pessoa com o link**.
-5. Copie o link e cole no `index.html`.
-
-## Como publicar no GitHub
-
-1. Crie um repositório novo.
-2. Envie `index.html` e `README.md` para a raiz do repositório.
-3. Faça o commit.
-
-## Como publicar na Vercel
-
-1. Acesse a Vercel.
-2. Clique em **Add New Project**.
-3. Importe o repositório do GitHub.
-4. Selecione **Other** ou **Static HTML**.
-5. Publique.
-
-## Observação
-
-As imagens principais já estão embutidas no `index.html`, então não precisa subir uma pasta de imagens separada.
+Depois disso, envie o `index.html` para sua hospedagem ou construtor de página.
