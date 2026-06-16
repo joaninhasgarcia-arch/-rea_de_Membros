@@ -29,3 +29,6 @@ const DOWNLOAD_LINKS = {
 Troque cada texto pelo link real do Google Drive, Dropbox ou outra hospedagem.
 
 Depois disso, envie o `index.html` para sua hospedagem ou construtor de página.
+
+
+Atualização: links de download direto configurados para Álbum, Desafio 7 Dias (2 arquivos) e Versículos/Promessas para Colorir. O link do Jogo da Memória não foi enviado e ficou sem download configurado.
